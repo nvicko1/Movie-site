@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="shortcut icon" href="images/fav-icon.png" />
+    <!-- <script src="script.js"></script> -->
+    <!-- import poppins font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- import monoton font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Monoton&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <title>movie-name HD Movies</title>
+    <!--using font awsome-->
+  </head>
+  <body>
+    <div id="progress">
+      <span id="progress-value"></span>
+    </div>
+
+    <!-- NAVIGATION -->
+    <nav class="navigation">
+      <input type="checkbox" class="menu-btn" id="menu-btn" />
+      <label for="menu-btn" class="menu-icon">
+        <span class="nav-icon"></span>
+      </label>
+      <!--Logo  -->
+      <a href="index.html" class="logo">Movies.<span>.hd</span></a>
+      <!--Menu-->
+      <ul class="menu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="#">genre</a></li>
+        <li><a href="#">TV shows</a></li>
+        <li><a href="#">Movies</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+      <!--Search box-->
+      <form action="" class="search-box">
+        <input
+          type="text"
+          name="search"
+          placeholder="Search movie"
+          class="search-movie"
+          required
+        />
+        <button type="submit"><i class="fas fa-search"></i></button>
+      </form>
+    </nav>
+    <!-- nav end -->
+    <section class="movie-banner">
+      <!-- img -->
+      <div class="m-banner-img">
+        <img
+          src="Movie-Data/Pirates-of-the-Caribbean-Salazar's-Revenge/cover.jpg"
+          alt=""
+        />
+      </div>
+
+      <!-- content -->
+      <div class="banner-container">
+        <!-- title container -->
+        <div class="title-container">
+          <!-- title top -->
+          <div class="title-top">
+            <!-- title -->
+            <div class="movie-title">
+              <h1>Pirates of the Caribbean Salazar's revenge</h1>
+            </div>
+            <!-- more about movie -->
+            <div class="more-about-movie">
+              <span class="quality">Full HD</span>
+              <div class="rating">
+                8.2 <img src="images/IMDb-icon.png" alt="imbd" />
+              </div>
+              <span>28 August 2017</span>
+              <span>87 min</span>
+            </div>
+            <!-- language -->
+            <div class="language">
+              <span>English</span>
+            </div>
+          </div>
+          <!-- Title-bottom === -->
+          <div class="tittle-bottom">
+            <!-- category -->
+            <div class="category">
+              <strong>Category</strong><br />
+              <a href="#">Horror</a>, <a href="#">Mistery</a>,
+              <a href="#">Thriller</a>
+            </div>
+            <!-- trailer-btn -->
+            <a
+              href="https://www.youtube.com/watch?v=-6StS7p5TdQ"
+              class="watch-btn"
+              target="_blank"
+              >Watch trailer</a
+            >
+          </div>
+        </div>
+        <!-- play btn -->
+        <div class="play-btn-container">
+          <div class="play-btn">
+            <a href="javascript:void"> <i class="fas fa-play"></i></a>
+          </div>
+        </div>
+
+        <!-- video / full movie -->
+        <div id="play" class="play">
+          <!-- close btn -->
+          <a href="javascript:void" class="close-movie">
+            <i class="fas fa-times"></i>
+          </a>
+          <!-- movie -->
+          <div class="play-movie">
+            <video id="m-video" controls>
+              <source
+                src="movie-data/Pirates-of-the-Caribbean-Salazar's-Revenge/Movie.mp4"
+                type="video/mp4"
+              />
+            </video>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- banner end  -->
+    <!-- details -->
+    <section class="movie-details">
+      <strong>Pirates of the Caribbean-Salazar's revenge</strong>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem id
+        dolores ipsum qui sunt commodi quia, dolorem asperiores provident
+        corrupti perferendis cupiditate consectetur, quae animi illum aperiam
+        eaque repellendus vitae.
+      </p>
+    </section>
+    <section class="screenshots">
+      <strong>ScreenShots</strong>
+      <!-- screen shots container -->
+      <div class="screen-s-container">
+        <img
+          src="movie-data/Pirates-of-the-Caribbean-Salazar's-Revenge/screenshot-1.jpg"
+          alt=""
+        />
+        <img
+          src="movie-data/Pirates-of-the-Caribbean-Salazar's-Revenge/screenshot-2.jpg"
+          alt=""
+        />
+        <img
+          src="movie-data/Pirates-of-the-Caribbean-Salazar's-Revenge/screenshot-3.jpg"
+          alt=""
+        />
+        <img
+          src="movie-data/Pirates-of-the-Caribbean-Salazar's-Revenge/screenshot-4.jpg"
+          alt=""
+        />
+      </div>
+    </section>
+    <!-- download -->
+    <section class="download-movie">
+      <!-- container -->
+      <div class="download-container">
+        <div class="download-box">
+          <span><i class="fas fa-server"></i>Server 1</span>
+          <span>English0</span>
+          <span>480p</span>
+          <a href="#">Download</a>
+        </div>
+        <div class="download-box">
+          <span><i class="fas fa-server"></i>Server 2</span>
+          <span>English0</span>
+          <span>720p</span>
+          <a href="#">Download</a>
+        </div>
+        <div class="download-box">
+          <span><i class="fas fa-server"></i>Server 3</span>
+          <span>English0</span>
+          <span>1080</span>
+          <a
+            href="movie-data/Pirates-of-the-Caribbean-Salazar's-Revenge/Movie.mp4"
+            download
+            >Download</a
+          >
+        </div>
+      </div>
+    </section>
+
+    <!-- foter -->
+
+    <footer>
+      <!-- footer logo -->
+      <a href="index.html" class="logo">Movies<span>HD</span></a>
+      <!-- copyright -->
+      <span class="copyright">Copyright 2021 - GoingToInernet</span>
+    </footer>
+    <script
+      src="https://kit.fontawesome.com/c8e4d183c2.js"
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      let scrollPrecentage = () => {
+        let scrollProgress = document.getElementById('progress');
+        let progressValue = document.getElementById('progress-value');
+        let pos = document.documentElement.scrollTop;
+        let calcHeight =
+          document.documentElement.scrollHeight -
+          document.documentElement.clientHeight;
+        let scrollValue = Math.round((pos * 100) / calcHeight);
+        scrollProgress.style.background = `conic-gradient(#e70634 ${scrollValue}%, #2b2f38 ${scrollValue}%)`;
+      };
+      window.onscroll = scrollPrecentage;
+      window.onload = scrollPrecentage;
+
+      //   poputp
+      const playbtn = document.querySelector('.play-btn');
+      const closebtn = document.querySelector('.close-movie');
+      const videoPlay = document.querySelector('#m-video');
+      playbtn.addEventListener('click', function () {
+        document.querySelector('.play').style.display = 'flex';
+        videoPlay.play();
+      });
+    </script>
+    <script>
+      closebtn.addEventListener('click', function () {
+        document.querySelector('.play').style.display = 'none';
+        videoPlay.pause();
+      });
+    </script>
+  </body>
+</html>
